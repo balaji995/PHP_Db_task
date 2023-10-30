@@ -1,0 +1,13 @@
+{{#data}}
+<div class="completed-activity">
+    <p>Course Module ID: {{cmid}}</p>
+    <p>Activity Name: {{activityname}}</p>
+    <p>Date of Creation: {{creationdate}}</p>
+    <p>Completion Status: Completed</p>
+</div>
+{{/data}}
+{{^data}}
+<div class="no-completed-activities">
+    <p>No completed activities found.</p>
+</div>
+{{/data}}
